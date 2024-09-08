@@ -1,3 +1,8 @@
 #!/usr/bin/env ruby
 
-puts ARGS[0].scan(/school/).join
+regex = /School/
+
+ARGV.each do |arg|
+  matches = arg.scan(regex)
+  puts matches.join if matches.any?
+end
