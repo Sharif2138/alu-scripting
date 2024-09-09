@@ -1,2 +1,2 @@
 # alu-scripting
-good
+my frst readme file for alu scripting 
