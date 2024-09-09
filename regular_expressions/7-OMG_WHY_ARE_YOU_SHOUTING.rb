@@ -1,3 +1,4 @@
 #!/usr/bin/env ruby
 
-puts ARGV[0].scan(/[A-Z)/).join
+# Extract only uppercase letters and join them
+puts ARGV[0].scan(/[A-Z]/).join
