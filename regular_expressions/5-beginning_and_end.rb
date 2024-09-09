@@ -1,3 +1,2 @@
-#!/usr/bin/env ruby
-
-puts ARGV[0].scan(/^h.n$/).join
+#!/usr/bin/ruby
+puts ARGV[0] if ARGV[0] =~ /^h.n+$/
